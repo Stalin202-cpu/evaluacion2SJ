@@ -8,7 +8,9 @@ class VuelosContoller extends Controller
 {
     public function index()
     {
-        $predios = Predio::all();
-        return view('vuelos.nuevo', compact('vuelos'));
+        //Consulta de Clientes en la BDD
+        $vuelos=Vuelos::all();
+        //Renderizar la vista y pasar datos
+        return view('vuelos.index',compact('vuelos'));
     }
 }
