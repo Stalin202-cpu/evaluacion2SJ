@@ -9,6 +9,6 @@ class VuelosContoller extends Controller
     public function index()
     {
         $predios = Predio::all();
-        return view('predios.nuevo', compact('predios'));
+        return view('vuelos.nuevo', compact('vuelos'));
     }
 }

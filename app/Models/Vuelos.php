@@ -19,5 +19,7 @@ class Vuelos extends Model
         'hora1',
         'latitud2', 'longitud2',
         'hora2',
+        'latitud3', 'longitud3',
+        'hora3'
     ];
 }
