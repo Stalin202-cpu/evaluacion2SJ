@@ -1,10 +1,10 @@
 <?php
 
 namespace App\Http\Controllers;
-
 use Illuminate\Http\Request;
-
+use App\Models\Vuelos;
 class VuelosContoller2 extends Controller
+
 {
     /**
      * Display a listing of the resource.
