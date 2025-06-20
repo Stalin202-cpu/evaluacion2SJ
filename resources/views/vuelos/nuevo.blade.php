@@ -4,7 +4,7 @@
 <div  class='row'>
     <div class="col-md-2"></div>
     <div class="col-md-8">
-        <form action="{{ route('predios.store') }}" method="POST" class="border p-4 rounded shadow bg-light"></form>
+        <form action="{{ route('vuelos.store') }}" method="POST" class="border p-4 rounded shadow bg-light"></form>
         @csrf
         <h3 class="text-center text-primary"><b>Registrar Nuevo Vuelo</b></h3>
         <hr>
@@ -34,10 +34,10 @@
             </div>
         </div>
         <hr>
-        <label for=""><b>Ingrese la hora Inicio dle:</b> </label> <br>
+        <label for=""><b>Ingrese la hora Inicio del vuelo:</b> </label> <br>
         <input type="time" name="hora1" id="hora1"
-            id="hora1" placeholder="Ingrese la cedula del piloto"
-             required class="form-control mb-3" value="{{ old('cedula') }}"> 
+            id="hora1" placeholder="Ingrese la hora"
+             required class="form-control mb-3" value="{{ old('hora1') }}"> 
 
 
 
